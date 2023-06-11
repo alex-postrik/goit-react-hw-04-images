@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom';
 import React, { Component } from "react";
 import PropTypes from 'prop-types';
 
-const modalRoor = document.querySelector('#modal-root')
+const modalRoot = document.querySelector('#modal-root')
 
 
 export class Modal extends Component {
@@ -34,7 +34,7 @@ export class Modal extends Component {
                     <div className={css.Modal}>
                         <img  className={css.imgModal} src={this.props.largeImage} alt="" />
                     </div>
-                </div>, modalRoor)
+                </div>, modalRoot)
     }
 }
 
